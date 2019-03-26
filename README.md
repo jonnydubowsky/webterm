@@ -10,7 +10,7 @@ In his original blog post, [Reimagining the browser as a Network OS][network-os]
 Although this project is heavily inspired by Paul's PR, it is a ground up rewrite, and it's still very early on in its development. Some bits are still missing. Ultimately I have a few personal goals with this experiment:
 
 * **It's just a Web App** – The original PR was based on a `term://` protocol built into Beaker itself. Although I'm not ruling out the possibility of this being built into Beaker eventually, most of the current features don't _require_ this to be built into the browser. I want to see how far we can get in userland with nothing but Beaker's core APIs.
-* **It's just Dat** - In this experiment, your file system is built on top of dat. Consiquentially, this experiment should take full advantage of everything dat has to offer. You should be able to:
+* **It's just Dat** - In this experiment, your file system is built on top of dat. Consequentially, this experiment should take full advantage of everything dat has to offer. You should be able to:
   1.  Easily sync your workspace between multiple devices.
   2.  Quickly undo changes to your filesystem (never fear `rm -rf` again).
   3.  Easily collaborate with multiple authors on projects (w/ multiwritter)
